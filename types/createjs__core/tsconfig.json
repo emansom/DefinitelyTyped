@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": false,
+		"strictFunctionTypes": true,
+		"baseUrl": "../",
+		"typeRoots": [
+			"../"
+		],
+		"paths": {
+			"@createjs/core": ["createjs__core"],
+			"@createjs/core/*": ["createjs__core/*"]
+		},
+		"types": [],
+		"noEmit": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"files": [
+		"index.d.ts",
+		"createjs__core-tests.ts"
+	]
+}
